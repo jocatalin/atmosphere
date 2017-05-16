@@ -1,10 +1,10 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: app
+  name: atmosphere
 spec:
   selector:
-    app: itnext-meetup
+    app: atmosphere
   type:  NodePort
   ports:
   - name:  reveal-md

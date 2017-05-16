@@ -249,6 +249,14 @@ kubelet, docker
 
 ---
 
+### demo
+
+    docker image jocatalin/atmosphere:2017
+    https://github.com/jocatalin/atmosphere
+    
+
+---
+
 ## Learn Kubernetes
 
 * Beginer:  https://katacoda.com/courses/kubernetes  
@@ -257,7 +265,7 @@ kubelet, docker
 
 ---
 
-### Take Aways Kubernetes
+### Kubernetes take aways
 
 - Works only with containers
 
@@ -272,3 +280,5 @@ kubelet, docker
 ### Thanks!
 
 >Questions?
+
+##### Catalin Jora | Container Solutions | @jocatalin 
