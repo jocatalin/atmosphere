@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: app
+spec:
+  selector:
+    app: itnext-meetup
+  type:  NodePort
+  ports:
+  - name:  reveal-md
+    port:  8000
+    targetPort: 1948

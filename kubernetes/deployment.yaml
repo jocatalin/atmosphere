@@ -1,0 +1,14 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: myapp
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: itnext-meetup
+    spec:
+      containers:
+      - name: myapp
+        image: jocatalin/itnext-meetup:white
