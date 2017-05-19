@@ -5,7 +5,7 @@ kubernetes 101 presentation
     docker pull jocatalin/atmosphere:2017
 
 ## run the presentation locally
-    docker run -d -p 8080:1948 jocatalin/atmosphere:2017 --css cs.css
+    docker run -d -p 8080:1948 jocatalin/atmosphere:2017
 
 ## run the presentation in minikube
 

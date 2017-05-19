@@ -5,4 +5,4 @@ WORKDIR /usr/src/app
 RUN npm install -g reveal-md
 COPY slides/ /usr/src/app/
 EXPOSE 1948
-ENTRYPOINT ["reveal-md"] 
+ENTRYPOINT ["reveal-md","--css","cs.css"] 
